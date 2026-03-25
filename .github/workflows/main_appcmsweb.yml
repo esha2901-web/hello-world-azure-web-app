@@ -4,6 +4,9 @@
 
 name: Build and deploy Python app to Azure Web App - appcmsweb
 
+env:
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
+
 on:
   push:
     branches:
