@@ -61,4 +61,3 @@ jobs:
           app-name: appcmsweb
           slot-name: Production
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9842FA39520743F6896F7BF17D9D4E2F }}
-``
